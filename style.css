@@ -1,0 +1,82 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-image:linear-gradient(to right,rgb(48, 48, 51),rgb(84, 84, 209));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.dashboard-container {
+  background-image: linear-gradient(to right, rgb(131, 115, 212), rgb(43, 48, 137));
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 450px;  height: 40%;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 2.0em;
+  color: rgb(213, 224, 233);
+}
+
+.balance-section p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.transaction-section {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.transaction {
+  margin-bottom: 10px;
+}
+
+.transaction label {
+  margin-right: 10px;
+  color: white;
+}
+
+.transaction input {
+  padding:5px 20px;
+  width: 100px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: rgb(236, 237, 244);
+  outline: none;
+  
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 0.9em;
+  color:white;
+  font-weight: 700;
+  font-size: 1em;
+}
+.btn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(6, 4, 47);
+  border: none;
+  font-weight: 500;
+ 
+}
+.btn{
+  border-radius: 5px;
+  padding:7px 12px;
+  border: none;
+  font-weight: 500;
+}
+p{
+    color: white;
+}
